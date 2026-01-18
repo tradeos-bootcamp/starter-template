@@ -35,7 +35,7 @@ venv\Scripts\Activate.ps1
 venv\Scripts\activate.bat
 
 # Установите зависимости
-pip install -r requirements.txt
+pip install -r .\requirements.txt
 
 # Запустите сервер
 uvicorn app.main:app --reload
@@ -68,7 +68,7 @@ uvicorn app.main:app --reload
 ### 🐳 Для пользователей Docker (опционально):
 ```bash
 # Если у вас установлен Docker
-docker-compose -f docker-compose.dev.yml up
+docker-compose -f docker-compose.yml up
 ```
 
 ---
