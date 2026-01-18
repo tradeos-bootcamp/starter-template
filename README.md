@@ -68,7 +68,7 @@ uvicorn app.main:app --reload
 ### 🐳 Для пользователей Docker (опционально):
 ```bash
 # Если у вас установлен Docker
-docker-compose -f docker-compose.dev.yml up
+docker-compose -f docker-compose.yml up
 ```
 
 ---
@@ -217,7 +217,7 @@ docker-compose -f docker-compose.dev.yml up
 ### Через терминал:
 ```bash
 # Добавьте репозиторий задания как upstream
-git remote add upstream https://github.com/tradeos-bootcamp/tradeos-1-api-starter-template.git
+git remote add upstream https://github.com/tradeos-bootcamp/-1-api-starter-template.git
 
 # Получите обновления
 git fetch upstream
@@ -378,4 +378,3 @@ A: Это и есть домашние задания :) Плюс дополни
 ---
 *Версия шаблона: 2.0 | Последнее обновление: 18.01.2026*
 *TradeOS Bootcamp © 2026 | Все права защищены*
-222

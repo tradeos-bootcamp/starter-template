@@ -1,0 +1,10 @@
+FROM python:3.11-alpine
+
+WORKDIR /app
+
+# Установите зависимости напрямую (без requirements.txt)
+RUN pip install fastapi uvicorn
+
+COPY . .
+
+CMD ["python", "-c", "print('Ready!')"]
