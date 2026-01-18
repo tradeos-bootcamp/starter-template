@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TradeOS Bootcamp - Стартовый шаблон
 
 Добро пожаловать в первый модуль bootcamp!
@@ -15,3 +16,6 @@
 1. Нажмите на зеленую кнопку `Code` -> `Open with Codespaces`.
 2. После загрузки среды, в терминале выполните: `uvicorn app.main:app --reload`
 3. Откройте в браузере: http://localhost:8000/docs
+=======
+# starter-template
+>>>>>>> 9a757139d1c744234c2414ef216cf3b2660a37ac
