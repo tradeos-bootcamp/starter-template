@@ -35,7 +35,7 @@ venv\Scripts\Activate.ps1
 venv\Scripts\activate.bat
 
 # Установите зависимости
-pip install -r requirements.txt
+pip install -r .\requirements.txt
 
 # Запустите сервер
 uvicorn app.main:app --reload
@@ -377,4 +377,9 @@ A: Это и есть домашние задания :) Плюс дополни
 
 ---
 *Версия шаблона: 2.0 | Последнее обновление: 18.01.2026*
+<<<<<<< HEAD
 *TradeOS Bootcamp © 2026 | Все права защищены*
+=======
+*TradeOS Bootcamp © 2026 | Все права защищены*
+222
+>>>>>>> 0ceecfaeb271716a41bc6b65c4836e91e7278a97
